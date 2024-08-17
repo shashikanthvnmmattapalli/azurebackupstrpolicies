@@ -51,7 +51,7 @@ resource "azurerm_data_protection_backup_policy_blob_storage" "example1" {
 
 resource "azurerm_data_protection_backup_policy_blob_storage" "example2" {
   name               = "demotest3"
-  vault_id           = "/subscriptions/84483ccc-23ad-4d1d-96b4-f97731df8a23/resourceGroups/demo/providers/Microsoft.DataProtection/backupVaults/demo"
+  vault_id           = "/subscriptions/84483ccc/resourceGroups/demo/providers/Microsoft.DataProtection/backupVaults/demo"
   time_zone          = "Coordinated Universal Time"
   backup_repeating_time_intervals = ["R/2024-08-25T22:30:00Z/P1W"]
   vault_default_retention_duration = "P30D"
@@ -73,7 +73,7 @@ resource "azurerm_data_protection_backup_policy_blob_storage" "example2" {
 
 resource "azurerm_data_protection_backup_policy_blob_storage" "example3" {
   name               = "demotest4"
-  vault_id           = "/subscriptions/84483ccc-23ad-4d1d-96b4-f97731df8a23/resourceGroups/demo/providers/Microsoft.DataProtection/backupVaults/demo"
+  vault_id           = "/subscriptions/84483ccc-/resourceGroups/demo/providers/Microsoft.DataProtection/backupVaults/demo"
   time_zone          = "Coordinated Universal Time"
   backup_repeating_time_intervals = ["R/2024-08-25T22:30:00Z/P1W"]
   vault_default_retention_duration = "P30D"
@@ -92,7 +92,7 @@ resource "azurerm_data_protection_backup_policy_blob_storage" "example3" {
 
 resource "azurerm_data_protection_backup_policy_blob_storage" "example4" {
   name               = "demotest5"
-  vault_id           = "/subscriptions/84483ccc-23ad-4d1d-96b4-f97731df8a23/resourceGroups/demo/providers/Microsoft.DataProtection/backupVaults/demo"
+  vault_id           = "/subscriptions/84483ccc/resourceGroups/demo/providers/Microsoft.DataProtection/backupVaults/demo"
   time_zone          = "Coordinated Universal Time"
   backup_repeating_time_intervals = ["R/2024-08-25T22:30:00Z/P1W"]
   retention_duration = null
@@ -132,7 +132,7 @@ resource "azurerm_data_protection_backup_policy_blob_storage" "example5" {
 
 resource "azurerm_data_protection_backup_policy_blob_storage" "example6" {
   name               = "demotest7"
-  vault_id           = "/subscriptions/84483ccc-23ad-4d1d-96b4-f97731df8a23/resourceGroups/demo/providers/Microsoft.DataProtection/backupVaults/demo"
+  vault_id           = "/subscriptions/84483ccc/resourceGroups/demo/providers/Microsoft.DataProtection/backupVaults/demo"
   time_zone          = "Coordinated Universal Time"
   backup_repeating_time_intervals = ["R/2024-08-25T22:30:00Z/P1W"]
   operational_default_retention_duration = null
@@ -152,7 +152,7 @@ resource "azurerm_data_protection_backup_policy_blob_storage" "example6" {
 
 resource "azurerm_data_protection_backup_policy_blob_storage" "example7" {
   name               = "demotest8"
-  vault_id           = "/subscriptions/84483ccc-23ad-4d1d-96b4-f97731df8a23/resourceGroups/demo/providers/Microsoft.DataProtection/backupVaults/demo"
+  vault_id           = "/subscriptions/84483ccc-23a/resourceGroups/demo/providers/Microsoft.DataProtection/backupVaults/demo"
   time_zone          = "Coordinated Universal Time"
   backup_repeating_time_intervals = ["R/2024-08-25T22:30:00Z/P1W"]
   operational_default_retention_duration = null
